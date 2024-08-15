@@ -9,11 +9,14 @@
 		"start:preview": "vite preview"
 	},
 	"dependencies": {
+		"@solidjs/router": "^0.14.3",
+		"less": "^4.2.0",
 		"prettier": "^3.3.3",
-		"solid-js": "^1.8.19"
+		"sanitize.css": "^13.0.0",
+		"solid-js": "^1.8.21"
 	},
 	"devDependencies": {
-		"typescript": "^5.5.3",
+		"typescript": "^5.5.4",
 		"vite": "^5.4.0",
 		"vite-plugin-solid": "^2.10.2"
 	}
