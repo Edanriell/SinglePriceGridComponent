@@ -7,8 +7,9 @@
 
 .single-price-grid {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: minmax(295rem, 460rem);
 	grid-template-rows: repeat(3, auto);
+	width: fit-content;
 	border-radius: 5rem;
 	box-shadow: 0 15rem 30rem 0 rgba(0, 81, 171, 0.15);
 	background: var(--white);
@@ -37,7 +38,7 @@
 
 .join-community__title {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 20rem;
 	letter-spacing: -0.01em;
 	color: var(--island-aqua);
@@ -47,7 +48,7 @@
 .join-community__subtitle {
 	display: block;
 	font-family: var(--font-family), sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 15rem;
 	line-height: 133%;
 	letter-spacing: -0.01em;
@@ -57,7 +58,7 @@
 
 .join-community__text {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 14rem;
 	line-height: 186%;
 	letter-spacing: -0.01em;
@@ -71,7 +72,7 @@
 
 .subscription__title {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 18rem;
 	letter-spacing: -0.01em;
 	color: var(--white);
@@ -80,7 +81,7 @@
 
 .subscription__price {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 16rem;
 	line-height: 162%;
 	letter-spacing: -0.01em;
@@ -93,7 +94,7 @@
 
 	> strong {
 		font-family: var(--font-family), sans-serif;
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 32rem;
 		letter-spacing: -0.01em;
 		color: var(--white);
@@ -102,7 +103,7 @@
 
 .subscription__text {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 16rem;
 	line-height: 162%;
 	letter-spacing: -0.01em;
@@ -113,11 +114,12 @@
 .why-us {
 	padding: 24rem 24rem 24rem 24rem;
 	background-color: var(--island-aqua-transparent-85);
+	border-radius: 0 0 5rem 5rem;
 }
 
 .why-us__title {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 18rem;
 	letter-spacing: -0.01em;
 	color: var(--white);
@@ -136,7 +138,7 @@
 
 .argument-list__list-item {
 	font-family: var(--font-family), sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 14rem;
 	line-height: 143%;
 	letter-spacing: -0.01em;
@@ -154,8 +156,9 @@
 	padding-top: 15rem;
 	padding-bottom: 14rem;
 	font-family: var(--font-family), sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 16rem;
 	letter-spacing: -0.01em;
 	color: var(--white);
+	line-height: 120%;
 }
