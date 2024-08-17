@@ -1,12 +1,20 @@
 import "./link.less";
 
-import { children } from "solid-js";
+import { children, Component, JSX, mergeProps } from "solid-js";
 
-export const Link = (props: any) => {
+type LinkProps = {
+	children: JSX.Element;
+	href?: string;
+	target?: string;
+};
+
+export const Link: Component<LinkProps> = (props) => {
+	const finalProps = mergeProps({ href: "#", target: "_self" }, props);
+
 	const safeChildren = children(() => props.children);
 
 	return (
-		<a class="link" href="#" target="_blank">
+		<a class="link" href={finalProps.href} target={finalProps.target}>
 			{safeChildren()}
 		</a>
 	);
