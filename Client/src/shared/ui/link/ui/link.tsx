@@ -1,3 +1,3 @@
-export const Button = () => {
+export const Link = () => {
 	return <button>Button</button>;
 };
