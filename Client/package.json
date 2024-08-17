@@ -1,7 +1,9 @@
 {
 	"name": "client",
-	"private": true,
 	"version": "1.0.0",
+	"author": "Edanriell",
+	"private": true,
+	"license": "MIT",
 	"type": "module",
 	"scripts": {
 		"start:dev": "vite",
