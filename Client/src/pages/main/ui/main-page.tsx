@@ -2,6 +2,8 @@ import "./main-page.less";
 
 import { MainLayout } from "@widgets/layouts/main/ui";
 
+import { Link } from "@shared/ui/link/ui";
+
 export const MainPage = () => {
 	return (
 		<MainLayout>
@@ -25,9 +27,7 @@ export const MainPage = () => {
 							per month
 						</p>
 						<p class="subscription__text">Full access for less than $1 a day</p>
-						<a class="button" href="#" target="_blank">
-							Sign Up
-						</a>
+						<Link>Sign Up</Link>
 					</article>
 					<article class="single-price-grid__why-us why-us">
 						<h2 class="why-us__title">Why Us</h2>
